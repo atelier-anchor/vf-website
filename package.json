@@ -4,6 +4,8 @@
   "author": "Xiangdong Zeng <xdzeng96@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/atelier-anchor/luohei-variable",
+  "homepage": "https://luohei.atelier-anchor.com",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,17 +13,17 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/node": "^20.11.28",
+    "@types/node": "^20.12.12",
     "@vitejs/plugin-vue": "^5.0.4",
-    "autoprefixer": "^10.4.18",
-    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
     "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.12",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.2",
-    "vite": "^5.1.6",
-    "vue": "^3.4.21",
-    "vue-i18n": "^9.10.2",
-    "vue-tsc": "^2.0.6"
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vue": "^3.4.27",
+    "vue-i18n": "^9.13.1",
+    "vue-tsc": "^2.0.19"
   }
 }

@@ -6,7 +6,6 @@ import tailwindcss from 'tailwindcss'
 import tailwindcssNesting from 'tailwindcss/nesting'
 
 export default defineConfig({
-  base: '/luohei-variable/',
   css: {
     postcss: { plugins: [tailwindcssNesting, tailwindcss, autoprefixer] },
   },
