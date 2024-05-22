@@ -7,7 +7,12 @@
         <LocaleToggler />
         <ColorToggler />
       </div>
-      <a href="https://atelier-anchor.com" target="_blank">
+      <a
+        href="https://atelier-anchor.com"
+        target="_blank"
+        class="overflow-hidden after:invisible after:block after:h-0 after:font-bold after:content-[attr(data-title)]"
+        :data-title="$t('header.visit-atelier-anchor')"
+      >
         {{ $t('header.visit-atelier-anchor') }}
       </a>
     </div>
